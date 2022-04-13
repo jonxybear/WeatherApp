@@ -1,0 +1,97 @@
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+h1 {
+  margin: 0px auto;
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 0, 98);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.26);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h2,
+h3 {
+  margin: 0px auto;
+  padding: 5px;
+  color: rgb(255, 0, 98);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.26);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.current {
+  margin: 0px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  color: blue;
+  background-image: url("../media/clouds.jpg");
+  background-size: cover;
+}
+.weathericon {
+  font-size: 50px;
+  text-align: right;
+}
+.curtemp {
+  font-size: 50px;
+  text-align: left;
+}
+.units {
+  font-size: x-large;
+  position: relative;
+  top: -19px;
+}
+.curweather {
+  font-size: 24px;
+  text-align: center;
+}
+#description {
+  text-transform: capitalize;
+}
+.future {
+  margin: 0px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  color: blue;
+  font-size: 15px;
+  background-image: url("../media/clouds.jpg");
+  background-size: cover;
+}
+.search {
+  color: rgb(255, 0, 98);
+  display: block;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#entercity {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(255, 0, 98);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.btn {
+  background: white;
+  color: rgb(255, 0, 98);
+  border-color: white;
+}
+.btn:hover {
+  background: rgb(255, 0, 98);
+  color: white;
+  border-color: rgb(255, 0, 98);
+}

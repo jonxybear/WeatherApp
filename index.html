@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amanda Belle Final Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1 id="city">Toronto</h1>
+    <hr>
+    <h2>Current Weather</h2>
+    <h3> Sunday March 26, 2022 - 15:36</h3>
+<div class="container">
+    <div class="row current">
+  <div class="col-3 weathericon">
+      ❄️
+    </div>
+  <div class="col-3 curtemp">
+      <span id="maintemp">
+                -1
+              </span>
+              <span class="units">
+                °C
+              </span>
+  </div>
+  <div class="col-6 curweather">
+    <span id="description">  
+    <strong>Rain and Snow</strong>
+    </span>
+      <br>
+      Humidity
+    <span id="humidity">
+       10
+      </span>
+      %
+    <br>
+    Wind
+    <span id="wind">
+     20 
+    </span>
+    km/h
+  </div>
+</div>
+<hr>
+<h2>
+    Next 5 Days
+</h2>
+    <div class="row future">
+  <div class="col">
+      <strong>Monday</strong>
+      <br>
+      -1°C
+      <br>
+      ☀️
+    </div>
+  <div class="col">
+      <strong>Tuesday</strong>
+      <br>
+      -3°C
+      <br>
+      ☁️
+  </div>
+  <div class="col">
+      <strong>Wednesday</strong>
+      <br>
+      0°C
+      <br>
+      🌧
+  </div>
+  <div class="col">
+      <strong>Thursday</strong>
+      <br>
+      -5°C
+      <br>
+      ☀️
+  </div>
+  <div class="col">
+      <strong>Friday</strong>
+      <br>
+      2°C
+      <br>
+      🌤
+  </div>
+  </div>
+  <hr>
+  <div class="search">
+  <form class="entercity">
+    <input class="form-control mr-sm-2" type="search" placeholder="Choose a new city" autofocus="on" autocomplete="off" id="entercity">
+    <button class="btn btn-outline-success my-2 my-sm-0" value ="Search" type="submit">Change</button>
+  </form>
+</div>
+<script src="script/script.js">
+	</script>
+  </body>
+</html>
