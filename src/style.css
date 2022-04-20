@@ -3,6 +3,7 @@ body {
   margin-right: 20%;
   padding: 20px;
   background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  word-wrap: break-word;
 }
 h1 {
   margin: 0px auto;
@@ -41,9 +42,8 @@ h3 {
   text-align: left;
 }
 .units {
-  font-size: 2vw;
-  position: relative;
-  top: -19px;
+  font-size: 4vw;
+  text-align: right;
 }
 .curweather {
   font-size: 2vw;
