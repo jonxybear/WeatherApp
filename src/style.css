@@ -35,7 +35,7 @@ h3 {
 }
 .weathericon {
   font-size: 4vw;
-  text-align: center;
+  text-align: right;
   line-height: normal;
 }
 .curtemp {
