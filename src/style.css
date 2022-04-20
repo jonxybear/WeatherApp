@@ -33,20 +33,20 @@ h3 {
   background-size: cover;
 }
 .weathericon {
-  font-size: 50px;
+  font-size: 4vw;
   text-align: right;
 }
 .curtemp {
-  font-size: 50px;
+  font-size: 4vw;
   text-align: left;
 }
 .units {
-  font-size: x-large;
+  font-size: 2vw;
   position: relative;
   top: -19px;
 }
 .curweather {
-  font-size: 24px;
+  font-size: 2vw;
   text-align: center;
 }
 #description {
