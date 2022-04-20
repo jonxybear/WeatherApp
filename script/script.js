@@ -31,11 +31,16 @@ function showTemperature(response) {
   let humid = document.querySelector("#humidity");
   let wind = document.querySelector("#wind");
   let weatherdescript = document.querySelector("#description");
+  let iconElement = document.querySelector("#wicon");
   city.innerHTML = messagename;
   maintemp.innerHTML = messagetemp;
   humid.innerHTML = messagehum;
   wind.innerHTML = messagewind;
   weatherdescript.innerHTML = messagedescript;
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
