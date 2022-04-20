@@ -35,15 +35,18 @@ h3 {
 }
 .weathericon {
   font-size: 4vw;
-  text-align: right;
+  text-align: center;
+  line-height: normal;
 }
 .curtemp {
   font-size: 4vw;
-  text-align: left;
+  text-align: center;
+  line-height: normal;
 }
 .units {
   font-size: 4vw;
-  text-align: right;
+  text-align: center;
+  line-height: normal;
 }
 .curweather {
   font-size: 2vw;
