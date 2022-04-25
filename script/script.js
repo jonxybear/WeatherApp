@@ -79,7 +79,7 @@ function giveDate() {
 
   let day = days[now.getDay()];
   let month = months[now.getMonth()];
-  let date = now.getDay();
+  let date = now.getDate();
   let year = now.getFullYear();
   let hours = now.getHours();
   if (hours < 10) {
