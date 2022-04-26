@@ -43,6 +43,31 @@ function showTemperature(response) {
   );
 }
 
+function displayForecast() {
+  let forcastElement = document.querySelector("#forecast");
+
+  let days = ["Thu", "Fri", "Sat", "Sun"];
+
+  let forecastHTML = `<div class="row">`;
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+  <div class="col-2">
+  <div class="weather-forecast-date">${day}</div>
+  <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="" width="42" />
+  <div class="weather-forecast-temp">
+  <span class="weather-forecast-max"> 18° </span>
+  <span class="weather-forecast-min"> 12° </span>
+  </div>
+  </div>
+  `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forcastElement.innerHTML = forecastHTML;
+}
+
 let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
 let units = "metric";
 let city = "toronto";
@@ -92,3 +117,4 @@ function giveDate() {
   h3.innerHTML = `${day} ${month} ${date}, ${year} - ${hours}:${minutes}`;
 }
 giveDate();
+displayForecast();
